@@ -1,0 +1,42 @@
+.main-container {
+    background: linear-gradient(to bottom, #202022, #393939);
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .dark-mode {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .dark-mode.md-my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .iridescent-gradient {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .iridescent-gradient.md-text-7xl {
+    font-size: 4.375rem;
+  }
+  
+  .no-more-films {
+    margin-top: 0.75rem;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+  }

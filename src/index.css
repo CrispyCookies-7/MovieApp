@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  scrollbar-gutter: auto;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+  background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 1rem;
+  background: rgb(255, 0, 221)
+}
+
+
+@keyframes iridescent {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.iridescent-gradient {
+  background: linear-gradient(
+    270deg,
+    #ff00ff,
+    #b300ff,
+    #5900ff,
+    #2b00ff,
+    #008cff,
+    #00ffa2
+  );
+  background-size: 1200% 1200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: iridescent 10s ease infinite;
+}
